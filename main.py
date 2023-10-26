@@ -6,3 +6,6 @@ def encoder(password):
         else:
             new_string += str(int(i) + 3)
     return new_string
+if __name__ == "__main__":
+    print(encoder("00009962"))
+    print(decoder("33332295"))
